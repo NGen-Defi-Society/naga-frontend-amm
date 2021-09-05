@@ -11,12 +11,12 @@ const useGetDocumentTitlePrice = () => {
     Number.isNaN(cakePriceUsd) || cakePriceUsd === 0
       ? ''
       : ` - $${cakePriceUsd.toLocaleString(undefined, {
-          minimumFractionDigits: 3,
-          maximumFractionDigits: 3,
-        })}`
+        minimumFractionDigits: 3,
+        maximumFractionDigits: 3,
+      })}`
 
   useEffect(() => {
-    document.title = `PancakeSwap${cakePriceUsdString}`
+    document.title = `NagaFinance${cakePriceUsdString}`
   }, [cakePriceUsdString])
 }
 export default useGetDocumentTitlePrice

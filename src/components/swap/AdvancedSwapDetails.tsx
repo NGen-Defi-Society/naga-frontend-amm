@@ -1,6 +1,6 @@
 import React from 'react'
-import { Trade, TradeType } from '@pancakeswap-libs/sdk'
-import { Card, CardBody, Text } from '@pancakeswap-libs/uikit'
+import { Trade, TradeType } from '@pancakeswap-libs/sdk-v2'
+import { Card, CardBody, Text } from 'naga-uikit'
 import useI18n from 'hooks/useI18n'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
@@ -37,9 +37,9 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
             <Text fontSize="14px">
               {isExactIn
                 ? `${slippageAdjustedAmounts[Field.OUTPUT]?.toSignificant(4)} ${trade.outputAmount.currency.symbol}` ??
-                  '-'
+                '-'
                 : `${slippageAdjustedAmounts[Field.INPUT]?.toSignificant(4)} ${trade.inputAmount.currency.symbol}` ??
-                  '-'}
+                '-'}
             </Text>
           </RowFixed>
         </RowBetween>
@@ -62,7 +62,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
             <QuestionHelper
               text={TranslateString(
                 230,
-                'For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the PancakeSwap treasury.'
+                'For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the NagaFinance treasury.'
               )}
             />
           </RowFixed>

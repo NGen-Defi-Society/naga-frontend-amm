@@ -8,15 +8,34 @@
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
-  "keywords": ["pancake", "default"],
+  "keywords": [
+    "pancake",
+    "default"
+  ],
   "tokens": [
+    {
+      "name": "Naga Finance",
+      "symbol": "NAGA",
+      "address": "0xA0931034f72C83333Efa4a586c583f345202Df0a",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/NAGA.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC.png"
+    },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     },
     {
       "name": "Bakery Token",
@@ -24,7 +43,7 @@
       "address": "0xe02df9e3e622debdd69fb838bb799e3f168902c5",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xe02df9e3e622debdd69fb838bb799e3f168902c5.png"
+      "logoURI": "/images/coins/0xe02df9e3e622debdd69fb838bb799e3f168902c5.png"
     },
     {
       "name": "BUSD Token",

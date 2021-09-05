@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import { Credentials, StringTranslations } from '@crowdin/crowdin-api-client'
-import { LangType } from '@pancakeswap-libs/uikit'
+import { Language } from 'naga-uikit/widgets/Menu'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
 import { RedirectDuplicateTokenIds, RedirectOldAddLiquidityPathStructure } from './AddLiquidity/redirects'
@@ -38,21 +38,21 @@ const BodyWrapper = styled.div`
   overflow-x: hidden;
   z-index: 1;
   justify-content: center;
-  background-image: url('/images/group-pancake.svg');
+  background-image: url('/images/naga_real_logo.png');
   background-repeat: no-repeat;
   background-position: bottom 24px center;
   background-size: 90%;
 
   ${({ theme }) => theme.mediaQueries.xs} {
-    background-size: auto;
+    background-size: 90%;
   }
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
-      url('/images/left-pancake.svg'), url('/images/right-pancake.svg');
+      url('/images/Naga_char/Character-07.png'), url('/images/Naga_char/Character-06.png');
     background-repeat: no-repeat;
-    background-position: center 420px, 10% 230px, 90% 230px;
-    background-size: contain, 266px, 266px;
+    background-position: center 450px, 10% 170px, 90% 170px;
+    background-size: contain, 250px, 250px;
     min-height: 90vh;
   }
 `
@@ -117,12 +117,12 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedLanguage])
 
-  const handleLanguageSelect = (langObject: LangType) => {
+  const handleLanguageSelect = (langObject: Language) => {
     setSelectedLanguage(langObject)
     localStorage.setItem(CACHE_KEY, langObject.code)
   }
 
-  useGetDocumentTitlePrice()
+  // useGetDocumentTitlePrice()
 
   return (
     <Suspense fallback={null}>

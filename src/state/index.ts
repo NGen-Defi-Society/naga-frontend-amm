@@ -40,7 +40,6 @@ const store = configureStore({
     toasts
   },
   middleware: [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })],
-  preloadedState: loadedState,
 })
 
 store.dispatch(updateVersion())
