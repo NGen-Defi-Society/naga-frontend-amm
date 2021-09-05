@@ -1,5 +1,5 @@
 import React from 'react'
-import { Price } from '@pancakeswap-libs/sdk-v2'
+import { Price } from 'nagafinance-sdk-v2'
 import { SyncAltIcon, Text } from 'naga-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 

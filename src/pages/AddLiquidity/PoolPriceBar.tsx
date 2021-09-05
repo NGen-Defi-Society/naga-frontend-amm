@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Percent, Price } from '@pancakeswap-libs/sdk-v2'
+import { Currency, Percent, Price } from 'nagafinance-sdk-v2'
 import { Text } from 'naga-uikit'
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'

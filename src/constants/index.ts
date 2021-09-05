@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk-v2'
+import { ChainId, JSBI, Percent, Token, WETH } from 'nagafinance-sdk-v2'
 
 export const ROUTER_ADDRESS = '0x93ea4938b5852954a9161fE71955CCC782063336'
 

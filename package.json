@@ -10,7 +10,7 @@
     "@ethersproject/abstract-provider": "^5.4.1",
     "@ethersproject/experimental": "^5.0.1",
     "@pancakeswap-libs/sdk": "1.0.1",
-    "@pancakeswap-libs/sdk-v2": "file:../pancakeswap-sdk-v2",
+    "nagafinance-sdk-v2" : "2.2.0",
     "@pancakeswap-libs/uikit": "^0.29.4",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",

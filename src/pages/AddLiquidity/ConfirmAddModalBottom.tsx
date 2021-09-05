@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@pancakeswap-libs/sdk-v2'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'nagafinance-sdk-v2'
 import React from 'react'
 import { Button, Text } from 'naga-uikit'
 import { TranslateString } from 'utils/translateTextHelpers'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'naga-uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pancakeswap-libs/sdk-v2'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from 'nagafinance-sdk-v2'
 import styled from 'styled-components'
 
 import useI18n from 'hooks/useI18n'

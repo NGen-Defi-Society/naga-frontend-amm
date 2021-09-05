@@ -1,4 +1,4 @@
-import { Trade } from '@pancakeswap-libs/sdk-v2'
+import { Trade } from 'nagafinance-sdk-v2'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex, Text } from 'naga-uikit'

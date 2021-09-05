@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from '@pancakeswap-libs/sdk-v2'
+import { Currency, Pair } from 'nagafinance-sdk-v2'
 import { Button, ChevronDownIcon, Text } from 'naga-uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'
